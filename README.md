@@ -45,7 +45,7 @@ Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Depl
 
 ```mermaid
 classDiagram
-  class Pessoa {
+  class User {
     + name: string
     + account: Account
     + features: Feature[]
@@ -75,8 +75,8 @@ classDiagram
     + description: string
   }
 
-  Pessoa --> Account : has
-  Pessoa --> Feature : has many
-  Pessoa --> Card : has
-  Pessoa --> News : has many
+  User "1" *-- "1" Account
+  User "1" *-- "N" Feature
+  User "1" *-- "1" Card
+  User "1" *-- "N" News
 ```
