@@ -10,6 +10,7 @@ Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Depl
 - Spring Data JPA
 - H2 Database
 - PostgreSQL Driver
+- Lombok
 
 ## Objetos da minha aplicação no formato JSON:
 
@@ -80,3 +81,17 @@ classDiagram
   User "1" *-- "1" Card
   User "1" *-- "N" News
 ```
+
+## Anotações:
+
+- @Entity
+- @Id
+- @GeneratedValue(strategy = GenerationType.IDENTITY)
+- @OneToOne(cascade = CascadeType.ALL)
+- @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+- @Column(unique = true)
+- @Column(name = "additional_limit", scale = 13, precision = 2)
+- @MappedSuperclass
+- @Getter
+- @Setter
+- @Service
