@@ -100,3 +100,5 @@ classDiagram
 - @GetMapping
 - @PostMapping
 - @PathVariable
+- @RestControllerAdvice
+- @ExceptionHandler
