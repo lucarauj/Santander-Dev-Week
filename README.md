@@ -22,7 +22,7 @@ Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Depl
 		"agency": "0000",
 		"balance": 1234.56,
 		"limit": 1000.00
-	}
+	},
 	"features": [
 		{
 			"icon": "URL",
@@ -90,8 +90,13 @@ classDiagram
 - @OneToOne(cascade = CascadeType.ALL)
 - @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 - @Column(unique = true)
-- @Column(name = "additional_limit", scale = 13, precision = 2)
+- @Column(name = "additional_limit", scale = 2, precision = 13)
 - @MappedSuperclass
 - @Getter
 - @Setter
 - @Service
+- @RestController
+- @RequestMapping
+- @GetMapping
+- @PostMapping
+- @PathVariable
