@@ -20,7 +20,7 @@
 
 <br>
 
-## Objetos da minha aplicação no formato JSON:
+## Objetos da aplicação no formato JSON:
 
 ```
 {
