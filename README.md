@@ -1,8 +1,14 @@
-Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Deploy em Nuvem
+[![NPM](https://img.shields.io/npm/l/react)]()
+
+# Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Deploy em Nuvem
+
+<br>
 
 ## Start do projeto base:
 
 - https://start.spring.io/
+
+<br>
 
 ## Dependências:
 
@@ -11,6 +17,8 @@ Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Depl
 - H2 Database
 - PostgreSQL Driver
 - Lombok
+
+<br>
 
 ## Objetos da minha aplicação no formato JSON:
 
@@ -41,6 +49,8 @@ Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Depl
 	]
 }
 ```
+
+<br>
 
 ## Gerando diagrama de classe Mermaid com chatGPT utilizando JSON:
 
@@ -82,6 +92,8 @@ classDiagram
   User "1" *-- "N" News
 ```
 
+<br>
+
 ## Anotações:
 
 - @Entity
@@ -102,3 +114,12 @@ classDiagram
 - @PathVariable
 - @RestControllerAdvice
 - @ExceptionHandler
+
+<br>
+
+
+## 👨‍🎓 Autor
+
+#### Lucas Araujo
+
+<a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
