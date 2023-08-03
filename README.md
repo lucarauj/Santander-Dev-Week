@@ -1,6 +1,6 @@
-[![NPM](https://img.shields.io/npm/l/react)]()
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Santander-Dev-Week/blob/main/LICENSE)
 
-# Santander Dev Week - APIs com Java 17, Spring Boot 3 e Railway - Do Zero ao Deploy em Nuvem
+# Santander Dev Week - APIs com Java 17 e Spring Boot 3
 
 <br>
 
@@ -116,7 +116,6 @@ classDiagram
 - @ExceptionHandler
 
 <br>
-
 
 ## 👨‍🎓 Autor
 
