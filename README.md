@@ -117,7 +117,7 @@ classDiagram
 
 <br>
 
-## 👨‍🎓 Autor
+## 👨‍🎓 Aluno
 
 #### Lucas Araujo
 
