@@ -96,24 +96,24 @@ classDiagram
 
 ## Anotações:
 
-- @Entity
-- @Id
-- @GeneratedValue(strategy = GenerationType.IDENTITY)
-- @OneToOne(cascade = CascadeType.ALL)
-- @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-- @Column(unique = true)
-- @Column(name = "additional_limit", scale = 2, precision = 13)
-- @MappedSuperclass
-- @Getter
-- @Setter
-- @Service
-- @RestController
-- @RequestMapping
-- @GetMapping
-- @PostMapping
-- @PathVariable
-- @RestControllerAdvice
-- @ExceptionHandler
+- [@Entity](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@Id](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@GeneratedValue(strategy = GenerationType.IDENTITY)](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@OneToOne(cascade = CascadeType.ALL)](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@Column(unique = true)](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@Column(name = "additional_limit", scale = 2, precision = 13)](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@MappedSuperclass](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@Getter](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@Setter](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@Service](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@RestController](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@RequestMapping](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@GetMapping](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@PostMapping](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@PathVariable](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@RestControllerAdvice](https://github.com/lucarauj/Anotacoes-Spring-Framework)
+- [@ExceptionHandler](https://github.com/lucarauj/Anotacoes-Spring-Framework)
 
 <br>
 
